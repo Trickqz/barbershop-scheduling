@@ -10,7 +10,7 @@ import (
 func main() {
 	config.ConnectDatabase()
 
-	err := config.DB.AutoMigrate(&models.Agendamento{})
+	err := config.DB.AutoMigrate(&models.Agendamento{}, &models.Usuario{}, &models.Horario{}, &models.Produto{})
 	if err != nil {
 		log.Fatal("Erro ao realizar a migração:", err)
 	}
