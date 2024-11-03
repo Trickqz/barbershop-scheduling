@@ -32,8 +32,8 @@ Antes de executar o projeto, você precisa ter o seguinte instalado:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu_usuario/barbearia-agendamento.git
-   cd barbearia-agendamento
+   git clone https://github.com/Trickqz/barbershop-scheduling
+   cd barbershop-scheduling
    ```
 
 2. **Instale as dependências:**
